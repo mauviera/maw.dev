@@ -1,3 +1,5 @@
+
+
 *::selection{
     background: rgb(116, 141, 166);
     color: black;
@@ -45,8 +47,12 @@ a:hover{
     color: black;
 }
 
-.lista__navegacion a{
-    text-decoration: none;
+.lista__navegacion{
+
+    a{
+        text-decoration: none;
+    }
+    
 }
 
 .img__home{

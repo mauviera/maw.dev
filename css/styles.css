@@ -10,6 +10,10 @@ body {
   display: flex;
   flex-direction: column; }
 
+.img-personal {
+  height: 370px;
+  width: 230px; }
+
 .lista__navegacion {
   margin: 0;
   color: black;

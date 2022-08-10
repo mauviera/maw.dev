@@ -19,6 +19,18 @@ body{
     
 }
 
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+
+}
+
+.img-personal{
+    @include sizes(230px, 370px );
+}
+
+
+
 .lista__navegacion {
     margin: 0;
     color: black;
